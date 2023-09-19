@@ -1,0 +1,65 @@
+
+
+#product_name , #product_price ,  #product_image{
+    padding: 20px;
+   border: 1px solid black; 
+   border-radius: 20px;
+   padding-right:10rem ;
+
+
+}
+ #product_price:hover{
+    background: rgb(243, 243, 98);
+    
+}
+#product_name:hover{
+    background: rgb(243, 243, 98);
+
+}
+
+
+#product_name{
+
+}
+
+
+
+#product_image{
+    padding: 25px;
+    border-radius: 20px;
+    /* background-color: rgb(0, 81, 255); */
+    margin-right:3.2rem ;
+}
+#product_image:hover{
+   
+    background: rgb(243, 243, 98);
+
+
+}
+
+#btn{
+   padding: 20px;
+   border-radius: 10px;
+    /* background-color: rgb(0, 81, 255); */
+    margin-right:14rem ;
+
+}
+#btn:hover{
+    background: rgb(243, 243, 98);
+   
+ 
+ }
+
+ #fieldset{
+width: 50%;
+height: 30rem;
+
+align-items: center;
+margin-top: 60px;
+border-radius: 12px;
+box-shadow: 10px 10px; 10px 10px;
+ }
+ #fieldset:hover{
+    background-color: rgb(68, 125, 158);
+    
+     }

@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins'sans-serif;
+    /* background-color: rgb(27, 21, 21,0.2); */
+}
+
+
+#btn{
+    border-radius: 20px;
+    /* margin-left:22px; */
+    padding: 15px;
+    /* padding-left: 200px */
+    ;
+    margin-top: 4rem;
+    margin-right:632px;
+    background: yellowgreen;
+}
+#btn:hover{
+    border-radius: 10px;
+    text-decoration:underline;
+    background: rgb(72, 147, 218);
+   
+}
+#select{
+    padding: 20px;
+}

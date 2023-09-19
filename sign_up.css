@@ -1,0 +1,52 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins'sans-serif;
+    background-color: rgb(179, 221, 245,);
+}
+
+.login{
+    background-color: grey;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#form{
+    background-color: rgb(87, 125, 253);
+   text-align: center;
+   margin-left: 20rem;
+   margin-right: 20rem;
+   border-radius: 20px;
+   /* margin-bottom: 200px; */
+   border: 1px solid black;
+
+   margin-top: 5rem;
+}
+#fname{
+    /* background-color: yellow; */
+    margin-right: 25rem;
+}
+#name{
+    padding: 10px;
+    padding-right: 20rem;
+    background: local;
+}
+#name:hover{
+    background-color: rgb(252, 245, 245);
+  
+}
+
+#btn{
+    border-radius: 20px;
+    /* margin-left:22px; */
+    padding: 15px;
+    /* padding-left: 200px */
+    ;
+}
+#btn:hover{
+    border-radius: 10px;
+    text-decoration:underline;
+    background: rgb(72, 147, 218);
+   
+}

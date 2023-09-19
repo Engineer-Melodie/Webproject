@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGE-FOR-CURD</title>
+    <link rel="stylesheet" href="crude.css">
+</head>
+<body>
+    <center>
+    <table border="2" style="border-collapse:collapse; background-color: yellow;margin-top: 15rem;" id="table">
+        <tr>
+        <th>product id</th>
+        <th>product_categories</th>
+        <th>product_brand</th>
+        <th>product_name</th>
+        <th>product_cost</th>
+        <th>product</th>
+        <th>add</th>
+        <th>update</th>
+        <th>devare</th>
+    </tr>
+
+    <tr>
+        <td>dhjxm</td>
+        <td>dhjxm</td>
+        <td>dhjxm</td>
+        <td>dhjxm</td>
+        <td>dhjxm</td>
+        <td>dhjxm</td>
+        <td>dhjxm</td>
+        <td>dhjxm</td>
+        <td>dhjxm</td>
+    </tr>
+    <tr>
+        <td>dhjxm</td>
+        <td>dhjxm</td>
+        <td>dhjxm</td>
+        <td>dhjxm</td>
+        <td>dhjxm</td>
+        <td>dhjxm</td>
+        <td>dhjxm</td>
+        <td>dhjxm</td>
+        <td>dhjxm</td>
+    </tr>
+    <tr>
+        <td>dhjxm</td>
+        <td>dhjxm</td>
+        <td>dhjxm</td>
+        <td>dhjxm</td>
+        <td>dhjxm</td>
+        <td>dhjxm</td>
+        <td>dhjxm</td>
+        <td>dhjxm</td>
+        <td>dhjxm</td>
+    </tr>
+    <tr>
+        <td>dhjxm</td>
+        <td>dhjxm</td>
+        <td>dhjxm</td>
+        <td>dhjxm</td>
+        <td>dhjxm</td>
+        <td>dhjxm</td>
+        <td>dhjxm</td>
+        <td>dhjxm</td>
+        <td>dhjxm</td>
+    </tr>
+
+</center>
+
+    </table>
+    <fieldset>
+         <legend>Add New Product</legend>
+    <button type="submit" id="btn" onclick="addNewProduct()">ADD NEW</button><br>
+    <br>
+        Productname <input type="text" id="pName"> <br>
+        Prductbrand: <input type="text" id="pBrand"> <br>
+        Product_cost: <input type="text" id="pCost"> <br>
+    </fieldset>
+   
+
+    <tr>
+        <td colspan="3"><footer style="background-color: rgb(63, 60, 60); padding:70px;display: block;">
+            
+        <h2 style="color: white;">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+           Ratione molestias iusto ipsam doloribus
+            cupiditate aspernatur recusandae voluptatibus <br>qui 
+           temporibus aliquam ipsa autem, inventore labore quam,
+            porro adipisci reiciendis dolor deserunt.
+            project is to help some body who use it    
+        </h2>
+              
+            
+            <div style="display: flex;>
+                <H1 style="border-radius: 20px;"> <button>JOIN US</H1></button> 
+                <H1 style="border-radius: 20px; margin-left: 200px;"><a href=""><button>contact us</H1></button> </a>
+                <H1 style="border-radius: 20px; margin-left: 200px;"><a href=""><button>our services</H1></button></a> 
+            </div>
+            
+        </footer></td>
+    </tr>
+    <tr>
+        <td colspan="3"><div style="text-align: center;background-color: black;width: 100%;color: azure;"><<&copy>> 2023 Mfashion all rights are reserved</div>
+        </td>
+    </tr>
+       
+   
+    
+
+
+</body>
+<script>
+    const table = document.getElementById("table");
+
+    const pName = document.getElementById("pName");
+    const pBrand = document.getElementById("pBrand");
+    const pCost = document.getElementById("pCost");
+
+    function addNewProduct()
+    {
+        var tr = document.createElement("tr");
+
+        var td1 = document.createElement("td");
+        var td2 = document.createElement("td");
+        var td3 = document.createElement("td");
+        var td4 = document.createElement("td");
+        var td5 = document.createElement("td");
+        var td6 = document.createElement("td");
+        var td7 = document.createElement("td");
+        var td8 = document.createElement("td");
+        var td9 = document.createElement("td");
+
+        td1.textContent = pName.value;
+        td2.textContent = pBrand.value;
+        td3.textContent = pCost.value;
+        td4.textContent = pName.value;
+        td5.textContent = pName.value;
+        td6.textContent = pName.value;
+        td7.textContent = pName.value;
+        td8.textContent = pName.value;
+        td9.textContent = pName.value;
+
+
+        tr.appendChild(td1);
+        tr.appendChild(td2);
+        tr.appendChild(td3);
+        tr.appendChild(td4);
+        tr.appendChild(td5);
+        tr.appendChild(td6);
+        tr.appendChild(td7);
+        tr.appendChild(td8);
+        tr.appendChild(td9);
+
+        table.appendChild(tr);
+    }
+</script>
+</html>
